@@ -10,6 +10,8 @@ TODO - BlockChain Experimente
 
 3. Dapp Review
 
+4. build, datadir etc. (bzw. komplettes "trackingchain"-Verzeichnis einhängen) liegen auf Host + für jeden Docker-Container einhängen
+
 ## DONE
 
 1. Subscription auf dem HTTP-Provider aktivieren (vermutlich geht das per geth Konfig bzw. Command Line)  
