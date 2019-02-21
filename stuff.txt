@@ -1,0 +1,22 @@
+{
+    "config": {
+        "chainId": 15,
+        "homesteadBlock": 0, // homestead release switch block (0: already homestead; nil: no fork)
+        "eip155Block": 0, // eip: ethereum improvement proposal; 155: prevent replay attacks
+        "eip158Block": 0, // 158: handle empty accounts as nonexistent
+        "eip225Block": 0, // PoA EIP!!
+        "clique":
+        {
+            "period": 5,
+            "epoch": 30000
+        }
+    },
+    "difficulty": "20",
+    "coinbase": "0x0000000000000000000000000000000000000000",
+    "gasLimit": "0x2FEFD800",
+    "alloc": {
+
+    }
+}
+
+// gasprice: 0 in truffle.js
