@@ -19,8 +19,8 @@ module.exports = function (callback) {
 
         function sendPositionIntoBlockchain ()
         {
-            var x = Math.random() * (1000 - 0) + 0;
-            var y = Math.random() * (1000 - 0) + 0;
+            var x = Math.round (Math.random() * (1000 - 0) + 0);
+            var y = Math.round (Math.random() * (1000 - 0) + 0);
             
             contract.methods.setRandomPosition(x, y).send({
                 from: account
