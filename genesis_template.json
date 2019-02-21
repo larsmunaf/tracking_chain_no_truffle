@@ -15,5 +15,8 @@
     "gasLimit": "0x2FEFD800",
     "alloc": {
 
-    }
+    },
+    "extraData": "0x00",
+    "gasPrice": "0x0"                                                         
 }
+
