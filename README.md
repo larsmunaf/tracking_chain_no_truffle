@@ -76,3 +76,5 @@ Optionally, a simple transaction with sufficient funds will do the same.
 ## Future
 
 There are still a lot of things that need to be added. For instance, the migration process can be done without truffle too. Also, the use of more than one node has to be implemented. Another point is the use of a RPC conncection provider instead of IPC.
+
+golang <3
